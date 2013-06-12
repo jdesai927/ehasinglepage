@@ -1,0 +1,8 @@
+We will use this as the running playbook
+
+1. Show list of doctor
+2. Pick one of the doctor
+3. Provide reason for visit
+4. Do consultation
+5. Doctor update the feedback
+6. Close consultation
