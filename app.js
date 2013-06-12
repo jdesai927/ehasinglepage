@@ -1,5 +1,3 @@
-'use strict';
-
 var eha = angular.module('eha', [])
     .config(function($routeProvider) {
         $routeProvider.when('/home',
@@ -12,5 +10,10 @@ var eha = angular.module('eha', [])
                 templateUrl: 'templates/doctors.html',
                 controller: 'DoctorsController'
             })
-        $routeProvider.otherwise({redirectTo: '/home'})
+        $routeProvider.when('/consultation',
+            {
+                templateUrl: 'templates/consultation.html',
+                controller: 'ConsultationController'
+            })
+
     })

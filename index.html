@@ -2,6 +2,7 @@
 <html ng-app="eha">
 <link rel="stylesheet" href="public/lib/bootstrap/css/bootstrap-responsive.css"/>
 <link rel="stylesheet" href="public/lib/bootstrap/css/bootstrap.css"/>
+<link rel="stylesheet" href="public/styles/main.css">
 <script src="public/lib/jquery-1.10.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
@@ -20,9 +21,9 @@
     </script>
 </head>
 <body>
-  <div class="navbar navbar-fixed-top">
+  <div class="navbar">
       <div class="navbar-inner">
-          <div class="container" ng-controller="NavbarController">
+          <div class="container-fluid" ng-controller="NavbarController">
             <ul class="nav">
                 <li ng-repeat="page in pages">
                     <a href="#/{{page.link}}"> {{page.name}} </a>
@@ -30,7 +31,7 @@
             </ul>
           </div>
       </div>
-  </div><br><br>
+  </div>
   <div class="container-fluid">
       <ng-view></ng-view>
   </div>

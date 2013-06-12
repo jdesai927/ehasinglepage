@@ -4,16 +4,17 @@
     <list default="true" id="c5be203a-029a-40ae-bba8-40e873e145bf" name="Default" comment="" />
     <ignored path="angulareha.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/app.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371022635615" ignored="false" />
+    <file path="/app.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371023929716" ignored="false" />
     <file path="/IndexCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1370940618162" ignored="false" />
-    <file path="/index.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371022696461" ignored="false" />
+    <file path="/index.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371027272018" ignored="false" />
     <file path="/doctors.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371022584330" ignored="false" />
     <file path="/default.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371022572776" ignored="false" />
     <file path="/DoctorsCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1370952297088" ignored="false" />
     <file path="/Dummy.txt" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1370954237966" ignored="false" />
     <file path="/NavbarCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371022465100" ignored="false" />
-    <file path="/consultation.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371022563663" ignored="false" />
-    <file path="/ConsultationCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371022667938" ignored="false" />
+    <file path="/consultation.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371032025619" ignored="false" />
+    <file path="/ConsultationCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371029170188" ignored="false" />
+    <file path="/main.css" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371031920625" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,28 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsultationCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/ConsultationCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="765" selection-end="765" vertical-scroll-proportion="0.13811189">
+            <state line="4" column="53" selection-start="242" selection-end="242" vertical-scroll-proportion="-2.6153846">
               <folding />
             </state>
           </provider>
@@ -63,16 +46,25 @@
       <file leaf-file-name="NavbarCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/NavbarCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="3" column="65" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consultation.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="consultation.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/consultation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+            <state line="54" column="57" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.3649374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="3" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +82,7 @@
       <file leaf-file-name="doctors.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/doctors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0">
+            <state line="0" column="43" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -108,14 +100,15 @@
       <list>
         <option value="$PROJECT_DIR$/public/scripts/IndexCtrl.js" />
         <option value="$PROJECT_DIR$/public/scripts/DoctorsCtrl.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/controllers/NavbarCtrl.js" />
-        <option value="$PROJECT_DIR$/templates/consultation.html" />
         <option value="$PROJECT_DIR$/templates/default.html" />
         <option value="$PROJECT_DIR$/templates/doctors.html" />
+        <option value="$PROJECT_DIR$/controllers/NavbarCtrl.js" />
         <option value="$PROJECT_DIR$/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/controllers/ConsultationCtrl.js" />
+        <option value="$PROJECT_DIR$/public/styles/main.css" />
+        <option value="$PROJECT_DIR$/templates/consultation.html" />
       </list>
     </option>
   </component>
@@ -194,6 +187,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angulareha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angulareha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,13 +415,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="38" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
@@ -453,34 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/doctors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/NavbarCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/DoctorsCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="4" selection-start="37" selection-end="37" vertical-scroll-proportion="0.028428094">
@@ -488,23 +464,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ConsultationCtrl.js">
+    <entry file="file://$PROJECT_DIR$/templates/doctors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+        <state line="0" column="43" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/consultation.html">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+        <state line="18" column="6" selection-start="608" selection-end="608" vertical-scroll-proportion="0.5117057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="43" selection-start="608" selection-end="608" vertical-scroll-proportion="0.5117057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/NavbarCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="65" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ConsultationCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="440" selection-end="440" vertical-scroll-proportion="0.26153848">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="765" selection-end="765" vertical-scroll-proportion="0.13811189">
+        <state line="4" column="53" selection-start="242" selection-end="242" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="35" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="3" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/consultation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="57" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.3649374">
           <folding />
         </state>
       </provider>
