@@ -1,0 +1,3 @@
+function ConsultationController($scope) {
+
+}
