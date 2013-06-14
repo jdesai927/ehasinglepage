@@ -1,0 +1,11 @@
+Plan for consultation
+
+ When patient chooses doctor and mode of communication:
+  if mode of communication is email, bring up email window, otherwise
+  check doctor status. Bring up form with details to confirm. If doctor is not available, include an appointment time request field on the form (populate using availability data?). If doctor is available, launch appropriate client and connect. In either case, POST form details to database.
+
+cases to consider:
+  if doctor is available but does not respond (does the connection wait for doctor response or simply connect automatically?)
+  if the doctor is available but forced to finish the consultation early because of unexpected issues
+
+  client to be opened in modal or new template?

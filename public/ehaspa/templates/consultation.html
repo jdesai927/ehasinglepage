@@ -1,0 +1,113 @@
+<script>
+    $(document).on('click', '.consult', function() {
+        var doc = JSON.parse($(this).attr("title"))
+        $("#docname").val(doc.name)
+        $("#docid").html(doc.id)
+        $("#appointmentTime").html("")
+        $.each(doc.appointments, function(i, item) {
+            $("#appointmentTime").append("<option>" + item + "</option>")
+        })
+    })
+    $(document).on('click', '.panelpic', function() {
+        $("#consultationMode").val($(this).attr("id"))
+        $(this).removeClass("panelpic")
+        $(".selectedpanelpic").removeClass("selectedpanelpic").addClass("panelpic")
+        $(this).addClass("selectedpanelpic")
+    })
+    $(document).on('click', '#confirmconsult', function() {
+        var appointment =
+        {
+            doctor_id: $("#docid").html(),
+            patient_id: "dummy_val", //TODO: GET FROM SESSION
+            time: $("#appointmentTimes").selected.html(),
+            mode: $("#appointmentMode").val(),
+            reason: $("#appointmentReason").val(),
+            approved: false
+        }
+    })
+</script>
+
+<h1> Consultations. </h1>
+
+<h3> Choose a doctor. </h3>
+Search by name: <input class="input-medium search-query" ng-model="docfilter.name">
+By specialty: <input class="input-medium search-query" ng-model="docfilter.specialty">
+<br> <br>
+<table class="table table-bordered table-hover">
+    <tbody>
+    <tr class="head">
+        <td> Profile Image </td>
+        <td> Name </td>
+        <td> Speciality </td>
+        <td> Contact </td>
+    </tr>
+    <tr ng-repeat="doctor in doctors | filter:docfilter" class="subrow">
+        <td>
+            <img width="100" height="100" src={{doctor.imglink}}>
+        </td>
+        <td>
+            <a href={{doctor.profilelink}} target="_blank"> {{doctor.name}} </a>
+        </td>
+        <td>
+            {{doctor.specialty}}
+        </td>
+        <td>
+            <a id={{doctor.id}} title={{doctor}} href="#appointmentMode" class="btn consult" data-toggle="modal"> Consult </a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<div id="appointmentMode" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="chooseMode" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="chooseMode">Choose how you wish to contact the doctor. </h3>
+    </div>
+    <div class="modal-body">
+        <img height="200" width="200" class="panelpic" id="Video" src="http://oughtersideschool.co.uk/wp-content/uploads/2011/11/Video-Icon.png">
+        <img height="200" width="200" class="panelpic" id="Email" src="http://cdn1.iconfinder.com/data/icons/dot/256/email_mail_post_letter_stamp.png">
+        <img height="200" width="200" class="panelpic" id="Phone" src="http://cdn1.iconfinder.com/data/icons/dot/256/phone.png">
+        <img height="200" width="200" class="panelpic" id="Chat" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Chat_bubble_1.svg/305px-Chat_bubble_1.svg.png">
+    </div>
+    <div class="modal-footer">
+        <button data-toggle="modal" data-dismiss="modal" href="#appointmentSetup">Select</button>
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+    </div>
+</div>
+
+<div id="appointmentSetup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="mkAppointment" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="mkAppointment">Choose the date and time of the appointment. </h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal" id="appointmentDetails">
+            <fieldset>
+                <legend>Appointment Details</legend>
+                <label class="text inline">
+                    Doctor name:
+                    <input type="text" disabled="false" id="docname">
+                    <div class="data" id="docid"></div>
+                </label>
+                <label class="text inline">
+                    Contact mode:
+                    <input type="text" disabled="true" id="consultationMode">
+                </label>
+                <label class="select inline">
+                    Contact date and time:
+                    <select id="appointmentTime" multiple="multiple">
+                    </select>
+                </label>
+                <label class="text inline">
+                    Reason for visit:
+                    <input type="text" id="consultationReason">
+                </label>
+                <button id="confirmconsult" class="btn btn-primary">Make appointment</button>
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="modal-footer">
+
+    </div>
+</div>
