@@ -18,6 +18,7 @@ var showDocBySpeciality=require('./routes/doctors');
 var findDocById = require('./routes/doctors');
 var showDocByAffliation = require('./routes/doctors');
 var showTimeSlotsByDate= require('./routes/doctors');
+var showBlockedTimeSlotsByDate= require('./routes/doctors');
 
 //patients
 var patients = require('./routes/patients');
@@ -91,6 +92,7 @@ app.get('/doctors/findByDocName',doctors.findByDocName);
 app.get('/doctors/showOneDocBySpeciality',doctors.showOneDocBySpeciality);
 app.get('/doctors/showDocBySpeciality',doctors.showDocBySpeciality);
 app.get('/doctors/showTimeSlotsByDate',doctors.showTimeSlotsByDate);
+app.get('/doctors/showBlockedTimeSlotsByDate',doctors.showBlockedTimeSlotsByDate);
 
 //patients
 app.get('/patients', patients.findAll);
