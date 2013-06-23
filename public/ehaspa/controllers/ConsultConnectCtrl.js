@@ -1,0 +1,3 @@
+function ConsultConnectController($scope) {
+
+}

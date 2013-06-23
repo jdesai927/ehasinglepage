@@ -1,10 +1,15 @@
 <script>
-
+    $(document).on('click', '.detailmodal', function() {
+        var datacomponent = "#appointmentdata" + $(this).attr('id').substring(3)
+        var appointment = JSON.parse($(datacomponent).html())
+        $("#appointmentdatelabel").html(appointment.consultation_slot)
+        $("#appointmentDetails").modal('show')
+    })
 </script>
 
 <h3> Your appointments. </h3>
 
-Search by doctor name: <input class="input-medium search-query" ng-model="appointmentfilter.name">
+Search by patient name: <input class="input-medium search-query" ng-model="appointmentfilter.name">
 By date: <input class="input-medium search-query" ng-model="appointmentfilter.time">
 
 <table class="table table-bordered table-hover">
@@ -14,17 +19,31 @@ By date: <input class="input-medium search-query" ng-model="appointmentfilter.ti
         <td> Time of appointment </td>
         <td> Command </td>
     </tr>
-    <tr ng-repeat="appointment in appointments | filter:appointmentfilter" class="subrow">
+    <tr ng-repeat="appointment in appointments | filter:appointmentfilter" class="subrow {{appointment.rowclass}}">
         <td>
-            {{isDoctor && appointment.doctor_id || appointment.patient_id}}
+            {{appointment.patient_name}}
         </td>
         <td>
-            {{appointment.time}}
+            {{appointment.consultation_date}}
         </td>
         <td>
-            <button id="approveappointment{{appointment.id}}" ng-show="!appointment.approved" class="btn approveappointment" ng-click="approve(appointment, appointment.id)"> Approve </button>
-            <button id="cancelappointment{{appointment.id}}" ng-show="appointment.approved" class="btn cancelappointment" ng-click="approve(appointment, appointment.id)"> Cancel </button>
+            <div class="data" id="appointmentdata{{appointment.id}}"> {{appointment}} </div>
+            <button id="approveappointment{{appointment.id}}" ng-show="isDoctor && appointment.unapproved" class="btn approveappointment" ng-click="approve(true, appointment)"> Approve </button>
+            <button id="cancelappointment{{appointment.id}}" ng-show="!appointment.canceled" class="btn cancelappointment" ng-click="approve(false, appointment)"> Cancel </button>
+            <button id="dta{{appointment.id}}" class="btn detailmodal"> Details </button>
         </td>
     </tr>
     </tbody>
 </table>
+
+<div id="appointmentDetails" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="appointmentDetailsHeader"> Appointment Details </h3>
+    </div>
+    <div class="modal-body">
+        <p>Date: <label id="appointmentdatelabel"></label></p>
+    </div>
+    <div class="modal-footer">
+    </div>
+</div>

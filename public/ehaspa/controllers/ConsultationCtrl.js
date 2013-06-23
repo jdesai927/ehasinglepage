@@ -1,6 +1,6 @@
-function ConsultationController($scope) {
+function ConsultationController($http, $scope) {
   //TODO: get doctors and bind
-  $scope.doctors = [ {
+  /*$scope.doctors = [ {
                         id: "doc1",
                         name: "Dr. Cow",
                         imglink: "http://tux.crystalxp.net/png/zafx-cow-tux-19307.png",
@@ -16,8 +16,16 @@ function ConsultationController($scope) {
                         specialty: "World Domination",
                         appointments: ["tomorrow", "thursday"]
                      }]
+                     */
+
   $scope.submitAppointment = function(appointment) {
 
   }
-
+  $http.get('/doctors')
+      .success(function(data) {
+        $scope.doctors = data
+      })
+      .error(function(data) {
+        console.log("error retrieving doctors")
+      })
 }
