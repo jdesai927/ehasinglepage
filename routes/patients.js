@@ -7,7 +7,7 @@ exports.findPatById = function(req, res) {
     var patients = patient_module.model(false);
     console.log('Retrieving patient: ' + id);
     var ObjectId = require('mongoose').Types.ObjectId;
-   patients.find({_id:ObjectId.fromString("51c1413a16aa2a7046cc0c77")},function(err, item) {
+   patients.find({_id: ObjectId.fromString("51c1413a16aa2a7046cc0c77")},function(err, item) {
         if (err){
             console.log("error retrieving patient"+id);
         }
@@ -74,23 +74,25 @@ exports.findUserName = function(req, res) {
 exports.addPatient = function(req, res) {
     var patientMod = patient_module.model(true);
     var ObjectId = require('mongoose').Types.ObjectId;
-    /*patientMod._id = new ObjectId();
+    patientMod._id = new ObjectId();
     patientMod.name.salute = req.body.name.salute;
     patientMod.name.first = req.body.name.first;
-    patientMod.name.salute = req.body.name.salute;
+    patientMod.name.last = req.body.name.last;
     patientMod.mobile = req.body.mobile;
     patientMod.sex = req.body.sex;
     patientMod.date_of_birth = req.body.date_of_birth;
-    patientMod.type = "Patient";*/
-    patientMod._id = new ObjectId();
-    patientMod.name.salute = "Ms";
-    patientMod.name.first = "Meenu";
-    patientMod.name.last = "Krishna";
-    patientMod.mobile = "989202332";
-    patientMod.sex = "female";
-    patientMod.date_of_birth = new date("Sep 9,1990");
     patientMod.type = "Patient";
-
+    patientMod.dateCreated  = req.body.dateCreated ;
+    patientMod.email = req.body.email;
+    patientMod.avatarURL = req.body.avatarURL;
+    patientMod.sex = req.body.sex;
+    patientMod.address.streetaddress1 = req.body.address.streetaddress1;
+    patientMod.address.streetaddress2 = req.body.address.streetaddress2;
+    patientMod.address.city= req.body.address.city;
+    patientMod.address.state = req.body.address.state;
+    patientMod.address.zipcode = req.body.address.zipcode;
+    patientMod.address.country = req.body.address.country;
+    patientMod.languages = req.body.languages;
     console.log('Adding Patient: ' + JSON.stringify(patientMod));
     patientMod.save(function(error, data){
         if(error){

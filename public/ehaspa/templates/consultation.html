@@ -5,8 +5,34 @@
         $("#docname").val(name)
         $("#docid").html(doc.id)
         $("#appointmentTime").html("")
-        $.each(doc.appointments, function(i, item) {
-            $("#appointmentTime").append("<option>" + item + "</option>")
+        var today = "Monday"
+        switch (new Date().getDay()) {
+            case 0:
+                today = "Sunday"
+                break
+            case 1:
+                today = "Monday"
+                break
+            case 2:
+                today = "Tuesday"
+                break
+            case 3:
+                today = "Wednesday"
+                break
+            case 4:
+                today = "Thursday"
+                break
+            case 5:
+                today = "Friday"
+                break
+            case 6:
+                today = "Saturday"
+        }
+        $.each(doc.doctor.visiting_time, function(i, date) {
+            $.each(date.consultation_time, function(n, time) {
+                if (date.consultation_day == today)
+                $("#appointmentTime").append("<option>" + date.consultation_day + ": " + time + "</option>")
+            })
         })
     })
     $(document).on('click', '.panelpic', function() {

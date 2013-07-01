@@ -11,7 +11,7 @@ module.exports = {
             console.log('connecting to MONGO via ' + path);
             module.exports._db = mongoose.connect(path);
         }
-        //console.log(module.exports._db);
+      //  console.log(module.exports._db);
         return module.exports._db;
     }
 

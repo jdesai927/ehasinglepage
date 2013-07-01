@@ -6,50 +6,25 @@ var express = require('express'),
 
 
 
-
 var app = express();
+
+var server = http.createServer(app),
+    io = require('socket.io').listen(server);
+
+
+
 
 //Step 1 - Show the path for the routes
 //doctors
 var doctors = require('./routes/doctors');
-var findByDocName=require('./routes/doctors');
-var showOneDocBySpeciality=require('./routes/doctors');
-var showDocBySpeciality=require('./routes/doctors');
-var findDocById = require('./routes/doctors');
-var showDocByAffliation = require('./routes/doctors');
-var showTimeSlotsByDate= require('./routes/doctors');
-
 //patients
 var patients = require('./routes/patients');
-var findPatById = require('./routes/patients');
-var addPatient= require('./routes/patients');
-
-
 //consultations
 var consultations = require('./routes/consultations');
-var findUserConsultationsByPatientID= require('./routes/consultations');
-var findDoctorConsultationsByDoctorID= require('./routes/consultations');
-var findUserConsultationsByPatientName= require('./routes/consultations');
-var findDoctorConsultationsByDoctorName= require('./routes/consultations');
-var findUserConsultationsByDate= require('./routes/consultations');
-var findDoctorConsultationsByDate= require('./routes/consultations');
-var findPresentandFutureUserConsultations= require('./routes/consultations');
-var findPresentandFutureDoctorConsultations= require('./routes/consultations');
-
-
-
 //health_records
-var health_records = require('./routes/health_records');
-var findHealth_RecordByPatId=require('./routes/health_records');
-var findMedications=require('./routes/health_records');
-var findVitals=require('./routes/health_records');
-var findReports=require('./routes/health_records');
-var findConsultations = require('./routes/health_records');
-var findImmunizations = require('./routes/health_records');
-var findAllergies = require('./routes/health_records');
-var findLastVitals = require('./routes/health_records');
-var findLastConsultation  = require('./routes/health_records');
-var addUserConsultations = require('./routes/health_records');
+var health_records = require('./routes/healthRecords');
+//serviceEntity
+var service_entity = require('./routes/serviceEntities');
 
 
 
@@ -81,20 +56,61 @@ app.configure(function () {
     app.use(app.router);
 });
 
+server.listen(app.get('port'), function () {
+    console.log("Express server listening on port " + app.get('port'));
+});
+
+
+io.sockets.on('connection', function (socket) {
+    socket.on('createConsultation', function(data){
+        socket.broadcast.emit('onCreateConsultation', data);
+    })  ;
+
+    socket.on('cancelConsultation', function(data){
+        socket.broadcast.emit('onCancelConsultation', data);
+    });
+
+    socket.on('updateConsultation', function(data){
+        socket.broadcast.emit('onUpdateConsultation', data);
+    });
+
+
+});
+
+
+
 //Step 2 - define the gets and sets
 // this would be the url to fire in the browser.for example to "showOneDocBySpeciality" ,the url will be "http://localhost:3001/doctors/showOneDocBySpeciality"
 //doctors
 app.get('/doctors', doctors.findAll);
-app.get('/doctors/showDocByAffliation',doctors.showDocByAffliation);
-app.get('/doctors/findDocById',doctors.findDocById) ;
-app.get('/doctors/findByDocName',doctors.findByDocName);
-app.get('/doctors/showOneDocBySpeciality',doctors.showOneDocBySpeciality);
-app.get('/doctors/showDocBySpeciality',doctors.showDocBySpeciality);
+app.get('/doctors/showDocByAffiliation/:affinityGroup',doctors.showDocByAffiliation);
+app.get('/doctors/:id',doctors.findDocById) ;
+app.get('/doctors/findByName/?:fName&:lName',doctors.findByDocName);
+app.get('/doctors/speciality/byOne:speciality',doctors.showOneDocBySpeciality);
+app.get('/doctors/speciality/:speciality',doctors.showDocBySpeciality);
 app.get('/doctors/showTimeSlotsByDate',doctors.showTimeSlotsByDate);
+app.get('/doctors/showBlockedTimeSlotsByDate',doctors.showBlockedTimeSlotsByDate);
+app.post('/doctors/addDoctorPersonal',doctors.addDoctorPersonal);
+app.delete('/doctors/deleteDoctor',doctors.deleteDoctor);
+app.put('/doctors/updateDoctorTechnical',doctors.updateDoctorTechnical);
+//app.put('/doctors/updateBlockedTime/:id',doctors.updateBlockedTime);
+
+app.get('/serviceEntities', service_entity.findAll);
+app.get('/serviceEntities/:id',service_entity.findById);
+app.post('/serviceEntities/add',service_entity.addServiceEntity);
+app.put('/serviceEntities/update',service_entity.updateServiceEntityId);
+app.delete('/serviceEntities/delete',service_entity.deleteServiceEntityId);
+app.get('/serviceEntities/findByName/:name',service_entity.findByName);
+app.get('/serviceEntities/findByID/:id',service_entity.findById);
+app.get('/serviceEntities/findByService/:service',service_entity.findByService);
+app.get('/serviceEntities/findByOnBoardDate/:date',service_entity.findByOnBoardDate);
+
 
 //patients
 app.get('/patients', patients.findAll);
 app.get('/patients/findPatById',patients.findPatById);
+app.post('/patients/addPatient',patients.addPatient);
+app.delete('/patients/deletePatient',patients.deletePatient);
 //consultations
 app.get('/consultations',consultations.findAll);
 app.get('/consultations/findUserConsultationsByPatientID',consultations.findUserConsultationsByPatientID);
@@ -105,8 +121,12 @@ app.get('/consultations/findUserConsultationsByDate',consultations.findUserConsu
 app.get('/consultations/findDoctorConsultationsByDate',consultations.findDoctorConsultationsByDate);
 app.get('/consultations/findPresentandFutureUserConsultations',consultations.findPresentandFutureUserConsultations);
 app.get('/consultations/findPresentandFutureDoctorConsultations',consultations.findPresentandFutureDoctorConsultations);
-//app.put('/consultations/addUserConsultations',consultations.addUserConsultations);
-// ^ this is broken
+app.post('/consultations/addUserConsultations',consultations.addUserConsultations);
+app.delete('/consultations/deleteUserConsultations',consultations.deleteUserConsultations);
+app.put('/consultations/updateStatusbyConsultationsId',consultations.updateStatusbyConsultationsId);
+app.put('/consultations/updateLastVitalsbyConsultationsId',consultations.updateLastVitalsbyConsultationsId);
+app.put('/consultations/updateLastConsultationbyConsultationsId',consultations.updateLastConsultationbyConsultationsId);
+//app.put('/consultations/updateDatebyConsultationsId',consultations.updateDatebyConsultationsId);
 
 //healthRecords
 app.get('/health_records',health_records.findAll);
@@ -119,11 +139,18 @@ app.get('/health_records/findImmunizations',health_records.findImmunizations);
 app.get('/health_records/findAllergies',health_records.findAllergies);
 app.get('/health_records/findLastVitals',health_records.findLastVitals);
 app.get('/health_records/findLastConsultation',health_records.findLastConsultation);
+app.post('/health_records/addUserHealthRecord',health_records.addUserHealthRecord);
+app.put('/health_records/addConsultation',health_records.addConsultation);
+app.put('/health_records/addVitals',health_records.addVitals);
+app.put('/health_records/addMedications',health_records.addMedications);
+app.put('/health_records/addReports',health_records.addReports);
+app.delete('/health_records/deleteUserHealthRecordbyPatientId',health_records.deleteUserHealthRecordbyPatientId);
 
 
 
-//app.get('/patients', patients.findByAffinity);
-//app.post('/addPatient', patients.addPatient);
+
+
+
 
 
 
@@ -135,8 +162,3 @@ app.get('/health_records/findLastConsultation',health_records.findLastConsultati
 
 
 
-var server = http.createServer(app), io = require('socket.io').listen(server);
-
-server.listen(app.get('port'), function () {
-    console.log("Express server listening on port " + app.get('port'));
-});

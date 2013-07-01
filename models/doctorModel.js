@@ -6,7 +6,8 @@ var Schema = mongoose.Schema,
 module.exports = {
     _schema: null,
 
-    _schema_def: { _id: ObjectId
+    _schema_def: { 
+        _id:  ObjectId
         , name: {salute: String, first: String, last: String}
         , email: String
         , username: String
@@ -15,26 +16,26 @@ module.exports = {
        ,dateCreated : Date
         //, speciality: [String]
         , BasicInformation: String
-        , aboutMe: String
         , Gender: String
         , birthDate: Date
         , phone: String
         , mobile: String
         , address: {streetaddress1: String, streetaddress2:String, city:String, state:String, zipcode: String, country: String}
-        , City: String
-        , State: String
-        , Country: String
-        , ZipCode: String
         , website: String
         , education: String
         , college: String
         , graduationYear: String
         , consultationOptions: [String]
          , affiliated_to : [{name: String, service_entity_ID: ObjectId}]
-        , languagesKnown: [String]
-        , doctor : {plan:String,plan_ID:String,mci_number:String,speciality :[String]}
-        //, consultationTime: [String]
-        , visiting_time: [{consultation_day: String, consultation_time: []}]
+        , languages: [String]
+        , doctor : {plan:String,plan_ID:String,mci_number:String,speciality :[String],credentials:[{name:String,institution:String,year:String}]
+        , visiting_time: [{consultation_day: String, consultation_time: []}],
+        testimonial : [{patient_name: String , patient_city : String, date_created: Date, comment: String, patient_ID: { type: Schema.ObjectId, ref: 'Users'}}]
+        ,about_me: String,
+    references : [{name: String, description: String, date_from : Date, date_to: Date}]
+}
+        
+        
     },
 
     schema: function(){

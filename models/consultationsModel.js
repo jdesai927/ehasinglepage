@@ -12,15 +12,15 @@ module.exports = {
         , consultation_date: Date
         ,consultation_slot: String
         //, ConsultationType: String
-        , doctor_ID: ObjectId
+        , doctor_ID: { type: Schema.ObjectId, ref: 'Users'}
         , doctor_name: String
         ,dateCreated : Date
-        , patient_ID: ObjectId
+        , patient_ID: { type: Schema.ObjectId, ref: 'Users'}
         , patient_name:String
         //, PatientComments: String
         //, QualityRating: String
         , consultation_reason: String
-        , created_by: ObjectId
+        , created_by: { type: Schema.ObjectId, ref: 'Users'}
         //, SpecialityID: String
         ,consultation_mode: String
         , status : String
@@ -40,7 +40,7 @@ module.exports = {
     model: function(new_instance){
         if (!module.exports._model){
             var schema = module.exports.schema();
-             console.log('schema for consulataion');
+             //console.log('schema for consulataion');
             //   console.log(schema);
             mongoose.model('consultations', schema);
             module.exports._model = mongoose.model('consultations');

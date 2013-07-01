@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5be203a-029a-40ae-bba8-40e873e145bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/ConsultConnectCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ehaspa/templates/consultconnect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.js" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\.idea\.name" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\angular.min.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\controllers\ConsultationCtrl.js" afterPath="" />
@@ -13,6 +10,7 @@
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\controllers\IndexCtrl.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\controllers\NavbarCtrl.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\angulareha\models\health_recordsModel.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\.bin\angular" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\.bin\angular.cmd" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\.npmignore" afterPath="" />
@@ -502,39 +500,47 @@
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\scripts\DoctorsCtrl.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\scripts\IndexCtrl.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\styles\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\angulareha\routes\health_records.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\scripts\app.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\templates\consultation.html" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\templates\default.html" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\angulareha\templates\doctors.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/NavbarCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/NavbarCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/app.js" afterPath="$PROJECT_DIR$/public/ehaspa/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/consultation.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/consultation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/doctors.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/doctors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/consultations.js" afterPath="$PROJECT_DIR$/routes/consultations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/consultationsModel.js" afterPath="$PROJECT_DIR$/models/consultationsModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/db.js" afterPath="$PROJECT_DIR$/models/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/default.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/doctorModel.js" afterPath="$PROJECT_DIR$/models/doctorModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/doctors.js" afterPath="$PROJECT_DIR$/routes/doctors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/public/styles/main.css" afterPath="$PROJECT_DIR$/public/ehaspa/public/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/patients.js" afterPath="$PROJECT_DIR$/routes/patients.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angulareha.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/app.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371124703664" ignored="false" />
+    <file path="/app.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372696963036" ignored="false" />
     <file path="/IndexCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1370940618162" ignored="false" />
-    <file path="/index.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371740149924" ignored="false" />
+    <file path="/index.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372700548363" ignored="false" />
     <file path="/doctors.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371992458119" ignored="false" />
-    <file path="/default.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371022572776" ignored="false" />
+    <file path="/default.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372700717979" ignored="false" />
     <file path="/DoctorsCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1370952297088" ignored="false" />
-    <file path="/Dummy.txt" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371992430837" ignored="false" />
+    <file path="/Dummy.txt" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372661922846" ignored="false" />
     <file path="/NavbarCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371116200350" ignored="false" />
-    <file path="/consultation.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372005551723" ignored="false" />
+    <file path="/consultation.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372338802701" ignored="false" />
     <file path="/ConsultationCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372004097718" ignored="false" />
     <file path="/main.css" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371400539368" ignored="false" />
     <file path="/ViewConsultationsCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372006336388" ignored="false" />
     <file path="/viewconsultations.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372006619623" ignored="false" />
-    <file path="/HealthRecordCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371647070188" ignored="false" />
+    <file path="/HealthRecordCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372375933423" ignored="false" />
     <file path="/ConsultConnectCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371740116847" ignored="false" />
+    <file path="/healthrecord.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372374270254" ignored="false" />
+    <file path="/doctors.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372696220564" ignored="false" />
+    <file path="/dashboard.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372700617539" ignored="false" />
+    <file path="/DashboardCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372697023442" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -557,7 +563,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="54" selection-start="4774" selection-end="4774" vertical-scroll-proportion="-12.2">
+            <state line="128" column="2" selection-start="5422" selection-end="5422" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -566,61 +572,70 @@
       <file leaf-file-name="doctors.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/doctors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="52" column="27" selection-start="2150" selection-end="2156" vertical-scroll-proportion="-35.36">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/ehaspa/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="31" column="14" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.63829786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewConsultationsCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js">
+      <file leaf-file-name="DashboardCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="6" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
+            <state line="1" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsultationCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js">
+      <file leaf-file-name="HealthRecordCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="45" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+            <state line="10" column="3" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewconsultations.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html">
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="-7.1923075">
+            <state line="3" column="45" selection-start="162" selection-end="162" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doctorModel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/doctorModel.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="40" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+            <state line="20" column="12" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/user.json">
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="546" column="3" selection-start="18160" selection-end="18160" vertical-scroll-proportion="-8.48368">
+            <state line="3" column="124" selection-start="237" selection-end="237" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="healthrecord.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -629,16 +644,7 @@
       <file leaf-file-name="consultation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/consultation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="224" selection-end="224" vertical-scroll-proportion="15.038462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consultationsModel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/consultationsModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="4" column="92" selection-start="225" selection-end="225" vertical-scroll-proportion="-2.6153846">
               <folding />
             </state>
           </provider>
@@ -662,22 +668,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/ehaspa/scripts/app.js" />
-        <option value="$PROJECT_DIR$/public/ehaspa/public/styles/main.css" />
-        <option value="$PROJECT_DIR$/public/ehaspa/controllers/NavbarCtrl.js" />
-        <option value="$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js" />
-        <option value="$PROJECT_DIR$/public/ehaspa/controllers/ConsultConnectCtrl.html" />
-        <option value="$PROJECT_DIR$/public/ehaspa/controllers/ConsultConnectCtrl.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/ehaspa/templates/consultconnect.html" />
         <option value="$PROJECT_DIR$/public/ehaspa/templates/doctors.html" />
         <option value="$PROJECT_DIR$/node_modules/express/lib/router/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/ehaspa/app.js" />
         <option value="$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js" />
-        <option value="$PROJECT_DIR$/public/ehaspa/templates/consultation.html" />
         <option value="$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js" />
         <option value="$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/templates/consultation.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js" />
+        <option value="$PROJECT_DIR$/routes/doctors.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/templates/default.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/app.js" />
       </list>
     </option>
   </component>
@@ -1010,7 +1016,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31993568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31993568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1084,93 +1090,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html">
+    <entry file="file://$PROJECT_DIR$/models/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/consultations.js">
+    <entry file="file://$PROJECT_DIR$/data/user.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/use eha.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="64" selection-start="864" selection-end="864" vertical-scroll-proportion="0.64498645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/doctors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.09214092">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/public/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="199" selection-end="199" vertical-scroll-proportion="1.1544304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/doctors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/doctorModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="54" selection-start="4774" selection-end="4774" vertical-scroll-proportion="-12.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/consultation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="224" selection-end="224" vertical-scroll-proportion="15.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+        <state line="644" column="73" selection-start="21741" selection-end="21748" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="6" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
+        <state line="6" column="8" selection-start="330" selection-end="639" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1182,16 +1118,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html">
+    <entry file="file://$PROJECT_DIR$/models/doctorModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="-7.1923075">
+        <state line="34" column="45" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/user.json">
+    <entry file="file://$PROJECT_DIR$/routes/consultations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="546" column="3" selection-start="18160" selection-end="18160" vertical-scroll-proportion="-8.48368">
+        <state line="224" column="28" selection-start="10359" selection-end="10366" vertical-scroll-proportion="-4.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/consultation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="92" selection-start="225" selection-end="225" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="124" selection-start="237" selection-end="237" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="2" selection-start="5422" selection-end="5422" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="45" selection-start="162" selection-end="162" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/doctors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="27" selection-start="2150" selection-end="2156" vertical-scroll-proportion="-35.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="14" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.63829786">
           <folding />
         </state>
       </provider>

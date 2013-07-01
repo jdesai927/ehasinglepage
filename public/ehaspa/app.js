@@ -25,5 +25,10 @@ angular.module('eha', ['ngResource'])
                 templateUrl: 'templates/consultconnect.html',
                 controller: 'ConsultConnectController'
             })
+        $routeProvider.when('/dashboard',
+            {
+                templateUrl: 'templates/dashboard.html',
+                controller: 'DashboardController'
+            })
 
     })

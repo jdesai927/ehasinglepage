@@ -150,52 +150,131 @@ exports.findDoctorConsultationsByDate = function(req, res) {
         }
     });
 };
-/*exports.addUserConsultations = function(req, res) {
+exports.addUserConsultations = function(req, res) {
     var consultationsMod = consultations_module.model(true);
     var ObjectId = require('mongoose').Types.ObjectId;
     consultationsMod._id = new ObjectId();
-    consultationsMod.ConsultationCreatedBy = req.body.ConsultationCreatedBy;
-    consultationsMod.ConsultationDateTime = req.body.ConsultationDateTime;
+    consultationsMod.consultation_date=req.body.consultation_date;
+    consultationsMod.consultation_slot = req.body.consultation_slot;
     consultationsMod.ConsultationTime = req.body.ConsultationTime;
     consultationsMod.ConsultationType = req.body.ConsultationType;
-    consultationsMod.DoctorComments = req.body.DoctorComments;
-    consultationsMod.DoctorDiagnosis = req.body.DoctorDiagnosis;
-    consultationsMod.DoctorId = req.body.DoctorId;
-    consultationsMod.PatientId = req.body.PatientId;
-    consultationsMod.PatientComments = req.body.PatientComments;
-    consultationsMod.QualityRating = req.body.QualityRating;
-    consultationsMod.Reason4Visit = req.body.Reason4Visit;
-    consultationsMod.SpecialityID = req.body.SpecialityID;
-    consultationsMod.RoleType = req.body.RoleType;
+
+    consultationsMod.doctor_ID = ObjectId.fromString(req.body.doctor_ID);
+    consultationsMod.doctor_name = req.body.doctor_name;
+    consultationsMod.dateCreated = req.body.dateCreated;
+    consultationsMod.patient_ID = ObjectId.fromString(req.body.patient_ID);
+    consultationsMod.patient_name = req.body.patient_name;
+    consultationsMod.consultation_reason = req.body.consultation_reason;
+    consultationsMod.created_by = ObjectId.fromString(req.body.created_by);
+    consultationsMod.consultation_mode = req.body.consultation_mode;
+    consultationsMod.status = req.body.status;
+    consultationsMod.last_vitals.temperature= req.body.last_vitals.temperature;
+    consultationsMod.last_vitals.SBP = req.body.last_vitals.SBP;
+    consultationsMod.last_vitals.DBP = req.body.last_vitals.DBP;
+    consultationsMod.last_vitals.Weight = req.body.last_vitals.Weight;
+    consultationsMod.last_vitals.date_of_capture= req.body.last_vitals.date_of_capture;
+    consultationsMod.last_consultation.patient_name= req.body.last_consultation.patient_name;
+    consultationsMod.last_consultation.patient_ID= ObjectId.fromString(req.body.last_consultation.patient_ID);
+    consultationsMod.last_consultation.patient_name= req.body.last_consultation.patient_name;
+    consultationsMod.last_consultation.doctor_name= req.body.last_consultation.doctor_name;
+    consultationsMod.last_consultation.doctor_ID= ObjectId.fromString(req.body.last_consultation.doctor_ID);
+    consultationsMod.last_consultation.consultation_date= req.body.last_consultation.consultation_date;
+    consultationsMod.last_consultation.consultation_slot= req.body.last_consultation.consultation_slot;
+    consultationsMod.last_consultation.consultation_mode= req.body.last_consultation.consultation_mode;
+    consultationsMod.last_consultation.consultation_reason= req.body.consultation_reason;
+    consultationsMod.last_consultation.created_by= ObjectId.fromString(req.body.last_consultation.created_by);
+    consultationsMod.last_consultation.status= req.body.last_consultation.status;
+    consultationsMod.last_consultation.diagnosis= req.body.last_consultation.diagnosis;
+
+
 
     console.log('Adding Consultations: ' + JSON.stringify(consultationsMod));
     consultationsMod.save(function(error, data){
         if(error){
-            res.json(error);
+           res.json(error);
+           console.log("error in insert");
         }
         else{
             res.json(data);
+            console.log("insert succesful");
         }
     });
 }
 
-exports.updateUserConsultationsId = function(req, res) {
-    var consultationsMod = consultations_module.model(false);
-    var tofind = req.body._id;
-    delete(req.body._id);
-    consultationsMod.findOneAndUpdate({_id:tofind}, req.body, function(error, updated){
-        if(error){
-            res.json(error);
-        }
-        else{
-            res.json(updated);
-        }
+exports.updateLastConsultationbyConsultationsId = function(req, res) {
+    var  consultations = consultations_module.model(false);
+    var ObjectId = require('mongoose').Types.ObjectId;
+     var tofind =ObjectId.fromString( req.body._id);
+    consultations.findOne({_id:tofind}, function (err, consultationsMod){
+        
+    consultationsMod.last_consultation.patient_name= req.body.last_consultation.patient_name;
+    consultationsMod.last_consultation.patient_ID= ObjectId.fromString(req.body.last_consultation.patient_ID);
+    consultationsMod.last_consultation.patient_name= req.body.last_consultation.patient_name;
+    consultationsMod.last_consultation.doctor_name= req.body.last_consultation.doctor_name;
+    consultationsMod.last_consultation.doctor_ID= ObjectId.fromString(req.body.last_consultation.doctor_ID);
+    consultationsMod.last_consultation.consultation_date= req.body.last_consultation.consultation_date;
+    consultationsMod.last_consultation.consultation_slot= req.body.last_consultation.consultation_slot;
+    consultationsMod.last_consultation.consultation_mode= req.body.last_consultation.consultation_mode;
+    consultationsMod.last_consultation.consultation_reason= req.body.consultation_reason;
+    consultationsMod.last_consultation.created_by= ObjectId.fromString(req.body.last_consultation.created_by);
+    consultationsMod.last_consultation.status= req.body.last_consultation.status;
+    consultationsMod.last_consultation.diagnosis= req.body.last_consultation.diagnosis;
+
+  consultationsMod.save(function (err) {
+      if (!err) {
+        console.log("updated");
+      } else {
+        console.log(err);
+      }
+      return res.send(consultationsMod);
     });
-}
+});
+};
+
+exports.updateLastVitalsbyConsultationsId = function(req, res) {
+    var  consultations = consultations_module.model(false);
+    var ObjectId = require('mongoose').Types.ObjectId;
+     var tofind =ObjectId.fromString( req.body._id);
+    consultations.findOne({_id:tofind}, function (err, consultationsMod){
+  consultationsMod.last_vitals.temperature= req.body.last_vitals.temperature;
+    consultationsMod.last_vitals.SBP = req.body.last_vitals.SBP;
+    consultationsMod.last_vitals.DBP = req.body.last_vitals.DBP;
+    consultationsMod.last_vitals.Weight = req.body.last_vitals.Weight;
+    consultationsMod.last_vitals.date_of_capture= req.body.last_vitals.date_of_capture;
+  consultationsMod.save(function (err) {
+      if (!err) {
+        console.log("updated");
+      } else {
+        console.log(err);
+      }
+      return res.send(consultationsMod);
+    });
+});
+};
+
+exports.updateStatusbyConsultationsId = function(req, res) {
+    var consultations= consultations_module.model(false);
+    var ObjectId = require('mongoose').Types.ObjectId;
+     var tofind =ObjectId.fromString( req.body._id);
+   consultations.findOne({_id:tofind}, function (err, doc){
+  doc.status = req.body.status;
+  doc.save(function (err) {
+      if (!err) {
+        console.log("updated");
+      } else {
+        console.log(err);
+      }
+      return res.send(doc);
+    });
+});
+};
+
 
 exports.deleteUserConsultations = function(req, res) {
     var consultationsMod = consultations_module.model(false);
-    var tofind = req.body._id;
+   
+     var ObjectId = require('mongoose').Types.ObjectId;
+     var tofind =ObjectId.fromString( req.body._id);
 
     consultationsMod.findOneAndRemove({_id:tofind}, function(error, updated){
         if(error){
@@ -206,7 +285,7 @@ exports.deleteUserConsultations = function(req, res) {
         }
     });
 }
-*/
+
 exports.findAll = function(req, res) {
     var consultationsMod = consultations_module.model(false);
     console.log('Retrieving all Consultations');
