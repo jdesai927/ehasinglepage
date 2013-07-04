@@ -3,5 +3,6 @@ function NavbarController($scope) {
                     {name: "Doctors", link: "doctors"},
                     {name: "Make Appointment", link: "consultation"},
                     {name: "View Appointments", link: "viewconsultations"},
-                    {name: "View Health Records", link: "healthrecord"}]
+                    {name: "View Health Records", link: "healthrecord"},
+                    {name: "Dashboard", link: "userDashboard"}]
 }

@@ -2,6 +2,14 @@
 
 }
 
+.sidebartext {
+    font-size: 8;
+}
+
+.sidebar {
+    display: none;
+}
+
 .panelpic {
    opacity: 0.5;
 }

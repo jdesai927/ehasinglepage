@@ -129,7 +129,7 @@ By specialty: <input class="input-medium search-query" ng-model="docfilter.speci
                     Reason for visit:
                     <input type="text" id="consultationReason">
                 </label>
-                <button id="confirmconsult" class="btn btn-primary">Make appointment</button>
+                <button id="confirmconsult" ng-click="submitAppointment(null)" data-dismiss="modal" class="btn btn-primary">Make appointment</button>
                 <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
             </fieldset>
         </form>

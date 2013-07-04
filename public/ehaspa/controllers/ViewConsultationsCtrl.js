@@ -49,17 +49,15 @@ function ViewConsultationsController($scope, $http) {
     */
     //$scope.appointmentfilter = { doctor_id: 0 } //TODO: set based on session
     $scope.approve = function(b, appointment) {
-        appointment.unapproved = false
         if (!b) {
-            appointment.canceled = true
+            appointment.status = "Closed"
             appointment.rowclass = "error"
         }
-        appointment.approved = b && appointment.approved
         for (i = 0; i < $scope.appointments.length; i++) {
-            if ($scope.appointments[i].id == appointment.id) {
-                $scope.appointments[i].approved = b && $scope.appointments.approved
+            if ($scope.appointments[i]._id == appointment._id) {
+                $scope.appointments[i].status = b ? "Approve" : "Closed"
                 $scope.appointments[i].rowclass = b ? "success" : "error"
-                //TODO: update approval status in database
+                //TODO: Setup backend
             }
         }
     }

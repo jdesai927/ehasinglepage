@@ -27,10 +27,10 @@ By date: <input class="input-medium search-query" ng-model="appointmentfilter.ti
             {{appointment.consultation_date}}
         </td>
         <td>
-            <div class="data" id="appointmentdata{{appointment.id}}"> {{appointment}} </div>
-            <button id="approveappointment{{appointment.id}}" ng-show="isDoctor && appointment.unapproved" class="btn approveappointment" ng-click="approve(true, appointment)"> Approve </button>
-            <button id="cancelappointment{{appointment.id}}" ng-show="!appointment.canceled" class="btn cancelappointment" ng-click="approve(false, appointment)"> Cancel </button>
-            <button id="dta{{appointment.id}}" class="btn detailmodal"> Details </button>
+            <div class="data" id="appointmentdata{{appointment._id}}"> {{appointment}} </div>
+            <button id="approveappointment{{appointment._id}}" ng-show="isDoctor && appointment.status == 'Open'" class="btn approveappointment" ng-click="approve(true, appointment)"> Approve </button>
+            <button id="cancelappointment{{appointment._id}}" ng-show="appointment.status != 'Closed'" class="btn cancelappointment" ng-click="approve(false, appointment)"> Cancel </button>
+            <button id="dta{{appointment._id}}" class="btn detailmodal"> Details </button>
         </td>
     </tr>
     </tbody>

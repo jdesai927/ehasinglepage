@@ -25,6 +25,7 @@
     </script>
 </head>
 <body>
+  <!--
   <div class="navbar">
       <div class="navbar-inner">
           <div class="container-fluid" ng-controller="NavbarController">
@@ -36,8 +37,41 @@
           </div>
       </div>
   </div>
+  -->
   <div class="container-fluid">
-      <ng-view></ng-view>
+      <div class="row-fluid">
+          <div class="span3 sidebar-width" ng-controller="DashboardController">
+              <div class="well sidebar-nav-fixed">
+                  <div class="container-fluid">
+                      <div class="row-fluid">
+                          <div>
+                              <ul class="nav nav-list" data-spy="affix" data-offset-top="750">
+                                  <li ng-repeat="page in pages">
+                                      <div class="accordion-group">
+                                          <div class="accordion-heading">
+                                              <a class="sidebartext accordion-toggle" data-toggle="collapse" data-parent="#dashboard" href="#collapse{{$index}}">
+                                                  <i class="icon-chevron-right"></i> {{page.name}}
+                                              </a>
+                                          </div>
+                                          <div id="collapse{{$index}}" class="accordion-body collapse">
+                                              <div class="accordion-inner">
+                                                  <div ng-repeat="child in page.children">
+                                                      <a class="sidebartext" href="#/{{child.link}}"> {{child.name}} </a> <br>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="span9 span-fixed-sidebar">
+              <ng-view></ng-view>
+          </div>
+      </div>
   </div>
 </body>
 </html>

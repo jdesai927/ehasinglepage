@@ -1,13 +1,24 @@
-<div class="accordion" id="dashboard">
-    <div class="accordion-group">
-        <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="dashboard" href="#collapseOne"> Appointments </a>
-        </div>
-        <div id="collapseOne" class="accordion-body collapse in">
-            <div class="accordion-inner">
-                Recent appointments <br>
-                Older appointments
-            </div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span4">
+            <ul class="nav nav-list" data-spy="affix" data-offset-top="750">
+                <li ng-repeat="page in pages">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#dashboard" href="#collapse{{$index}}">
+                                <i class="icon-chevron-right"></i> {{page.name}}
+                            </a>
+                        </div>
+                        <div id="collapse{{$index}}" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div ng-repeat="child in page.children">
+                                  <a href="#/{{child.link}}"> {{child.name}} </a> <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
