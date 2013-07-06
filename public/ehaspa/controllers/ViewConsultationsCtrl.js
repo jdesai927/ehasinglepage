@@ -1,10 +1,10 @@
 function ViewConsultationsController($scope, $http) {
     $scope.isDoctor = true //TODO: set based on session
-    $scope.id = 0 //TODO: set based on session and isDoctor
+    $scope.id = "51bc49c2c2ae8f9f0b3a481a" //TODO: set based on session and isDoctor
     //var Consultation = $resource('/consultations/:queryAction', {doctor_id: 0})
     if (!$scope.isDoctor) {
         $scope.persontext = "Doctor name"
-        $http({method: 'GET', url:'/consultations/findUserConsultationsByPatientID', params: {patientId: '0'}})
+        $http({method: 'GET', url:'/consultations/findUserConsultationsByPatientID', params: {patientId: $scope.id}})
             .success(function(data) {
               $scope.appointments = data
             })
@@ -13,7 +13,7 @@ function ViewConsultationsController($scope, $http) {
             })
     } else {
         $scope.persontext = "Patient name"
-        $http({method: 'GET', url:'/consultations'})
+        $http({method: 'GET', url:'/consultations/findDoctorConsultationsByDoctorID', params: {doctorId: $scope.id}})
             .success(function(data) {
                 $scope.appointments = data
             })

@@ -2,544 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5be203a-029a-40ae-bba8-40e873e145bf" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\controllers\ConsultationCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\controllers\DoctorsCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\controllers\IndexCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\controllers\NavbarCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\models\health_recordsModel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\.bin\angular" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\.bin\angular.cmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\bin\angular.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\generators\controller.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\generators\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\generators\model.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\help.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\init.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\loader.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\log.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\logger.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\routes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\server.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\app\controllers\welcome.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\public\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\public\javascripts\app.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\public\javascripts\vendor\angular-1.0.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\public\partials\welcome.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\server.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\templates\test\index.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\lib\node-angular\version.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\.bin\express" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\.bin\express.cmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\colors\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\colors\ReadMe.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\colors\colors.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\colors\example.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\colors\example.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\colors\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\colors\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\History.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\bin\express" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\express.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\http.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\https.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\request.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\response.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\router\collection.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\router\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\router\methods.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\router\route.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\view.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\view\partial.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\lib\view\view.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\cache.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\connect.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\http.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\https.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\basicAuth.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\bodyParser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\compress.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\csrf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\directory.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\errorHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\favicon.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\limit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\logger.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\methodOverride.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\profiler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\query.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\responseTime.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\router.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\session.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\session\cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\session\memory.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\session\session.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\session\store.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\static.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\staticCache.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\middleware\vhost.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\patch.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\directory.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\error.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_add.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_attach.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_code.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_copy.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_error.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_excel.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_find.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_gear.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_go.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_green.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_key.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_lightning.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_link.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_paintbrush.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_paste.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_red.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_save.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_acrobat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_actionscript.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_add.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_c.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_camera.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_cd.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_code.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_code_red.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_coldfusion.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_compressed.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_copy.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_cplusplus.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_csharp.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_cup.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_database.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_dvd.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_error.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_excel.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_find.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_flash.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_freehand.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_gear.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_get.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_go.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_h.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_key.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_lightning.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_link.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_magnify.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_medal.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_office.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_paint.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_paintbrush.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_paste.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_php.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_picture.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_powerpoint.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_put.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_ruby.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_stack.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_star.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_swoosh.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_text.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_text_width.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_tux.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_vector.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_visualstudio.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_width.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_word.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_world.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_white_zip.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_word.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\icons\page_world.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\public\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\lib\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\benchmark\bench-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\example\json.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\example\post.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\example\upload.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\lib\file.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\lib\incoming_form.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\lib\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\lib\json_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\lib\multipart_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\lib\octet_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\lib\querystring_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\common.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\beta-sticker-1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\binaryfile.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\funkyfilename.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\menu_separator.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\plain.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\http\special-chars-in-filename\info.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\encoding.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\misc.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\no-filename.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\preamble.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\special-chars-in-filename.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\workarounds.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\multipart.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\integration\test-fixtures.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\integration\test-json.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\integration\test-octet-stream.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\common.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\integration\test-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple\test-file.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple\test-incoming-form.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple\test-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple\test-querystring-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\system\test-multi-video-upload.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\run.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\standalone\test-connection-aborted.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\standalone\test-content-transfer-encoding.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\standalone\test-issue-46.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\tools\base64.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\unit\test-file.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\test\unit\test-incoming-form.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\node_modules\formidable\tool\record.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\connect\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mime\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mime\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mime\mime.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mime\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mime\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mime\types\mime.types" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mime\types\node.types" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\.gitignore.orig" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\.gitignore.rej" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\examples\pow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\examples\pow.js.orig" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\examples\pow.js.rej" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\chmod.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\clobber.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\mkdirp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\perm.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\perm_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\race.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\rel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\sync.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\umask.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\mkdirp\test\umask_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\.gitmodules" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\History.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\benchmark.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\examples.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\lib\querystring.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\test\mocha.opts" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\test\parse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\node_modules\qs\test\stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\express\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\History.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\benchmarks\clone.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\benchmarks\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\benchmarks\mem.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\defaults.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\embedded-documents.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\errors.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\finding-documents.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\getters-setters.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\indexes.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\methods-statics.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\middleware.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\migration-guide.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\model-definition.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\plugins.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\populate.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\query.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\querystream.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\schematypes.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\validation.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\docs\virtuals.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\examples\schema.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\collection.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\connection.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\document.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\drivers\node-mongodb-native\binary.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\drivers\node-mongodb-native\objectid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\error.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\model.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\namedscope.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\promise.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\query.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\querystream.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\array.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\boolean.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\buffer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\date.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\documentarray.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\mixed.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\number.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\objectid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schema\string.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schemadefault.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\schematype.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\statemachine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\types\array.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\types\buffer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\types\documentarray.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\types\embedded.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\types\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\types\number.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\types\objectid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\lib\virtualtype.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\hooks\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\hooks\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\hooks\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\hooks\hooks.alt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\hooks\hooks.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\hooks\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\hooks\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\external-libs\bson\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\external-libs\bson\bson.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\external-libs\bson\bson.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\external-libs\bson\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\external-libs\bson\test\test_bson.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\external-libs\bson\test\test_full_bson.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\external-libs\bson\test\test_stackless_bson.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\external-libs\bson\wscript" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\install.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\admin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\base_command.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\db_command.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\delete_command.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\get_more_command.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\insert_command.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\kill_cursor_command.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\query_command.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\update_command.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set_servers.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\strategies\ping_strategy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\strategies\statistics_strategy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursorstream.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\db.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\grid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\gridstore.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\readstream.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\lib\mongodb\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\README" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\bson.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\bson.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\wscript" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\install.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\binary.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\binary_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\bson.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\code.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\db_ref.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\double.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\float_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\long.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\max_key.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\min_key.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\objectid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\timestamp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\browser\bson_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\browser\nodeunit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\browser\suite2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\browser\suite3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\browser\test.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\node\bson_array_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\node\bson_parser_comparision_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\node\bson_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\node\bson_typed_array_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\node\data\test_gs_weird_bug.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\node\test_full_bson.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\test\node\tools\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\gleak.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\MIT.LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine_favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\node_modules\mongodb\valgrind.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\.gitmodules" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\History.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\bin\expresso" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\docs\api.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\docs\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\docs\index.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\docs\layout\foot.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\docs\layout\head.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\lib\bar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\lib\foo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\test\assert.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\test\async.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\test\bar.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\test\foo.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\test\http.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\test\serial\async.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\support\expresso\test\serial\http.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\collection.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\common.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\connection.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\crash.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\document.strict.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\document.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\drivers\node-mongodb-native\collection.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\dropdb.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\index.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\model.querying.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\model.ref.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\model.stream.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\model.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\model.update.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\namedscope.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\promise.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\query.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\schema.onthefly.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\schema.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\shard.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\types.array.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\types.buffer.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\types.document.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\types.documentarray.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\types.number.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\utils.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\node_modules\mongoose\test\zzlast.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\test\cli.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\node_modules\angular\test\index.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\ehaspa\app.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\bootstrap\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\bootstrap\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\bootstrap\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\bootstrap\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\lib\jquery-1.10.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\scripts\DoctorsCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\scripts\IndexCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\public\styles\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\routes\health_records.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\scripts\app.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\templates\consultation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\templates\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\angulareha\templates\doctors.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/NavbarCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/NavbarCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/ConsultConnectCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/ConsultConnectCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js" afterPath="$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/scripts/app.js" afterPath="$PROJECT_DIR$/public/ehaspa/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/consultation.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/consultation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/consultconnect.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/consultconnect.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/dashboard.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/default.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/doctors.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/doctors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/public/styles/main.css" afterPath="$PROJECT_DIR$/public/ehaspa/public/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html" afterPath="$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angulareha.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/app.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372772624840" ignored="false" />
+    <file path="/app.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1373031540423" ignored="false" />
     <file path="/IndexCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1370940618162" ignored="false" />
-    <file path="/index.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372784291249" ignored="false" />
+    <file path="/index.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1373040716473" ignored="false" />
     <file path="/doctors.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372761421478" ignored="false" />
     <file path="/default.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372914460215" ignored="false" />
     <file path="/DoctorsCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1370952297088" ignored="false" />
     <file path="/Dummy.txt" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372912471075" ignored="false" />
     <file path="/NavbarCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372759587986" ignored="false" />
-    <file path="/consultation.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372915647526" ignored="false" />
-    <file path="/ConsultationCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372004097718" ignored="false" />
+    <file path="/consultation.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1373118112187" ignored="false" />
+    <file path="/ConsultationCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1373118127623" ignored="false" />
     <file path="/main.css" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372784238759" ignored="false" />
-    <file path="/ViewConsultationsCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372913575144" ignored="false" />
+    <file path="/ViewConsultationsCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1373117616944" ignored="false" />
     <file path="/viewconsultations.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372913794602" ignored="false" />
     <file path="/HealthRecordCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372375933423" ignored="false" />
-    <file path="/ConsultConnectCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1371740116847" ignored="false" />
+    <file path="/ConsultConnectCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372957173856" ignored="false" />
     <file path="/healthrecord.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372914266204" ignored="false" />
     <file path="/doctors.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372696220564" ignored="false" />
-    <file path="/dashboard.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372781252046" ignored="false" />
+    <file path="/dashboard.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372958813727" ignored="false" />
     <file path="/DashboardCtrl.js" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1372781083599" ignored="false" />
+    <file path="/consultconnect.html" changelist="c5be203a-029a-40ae-bba8-40e873e145bf" time="1373105272443" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -559,46 +53,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="doctors.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/doctors.html">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+            <state line="17" column="58" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/scripts/app.js">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="viewconsultations.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="41" selection-start="1764" selection-end="1764" vertical-scroll-proportion="-4.576923">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/public/styles/main.css">
+      <file leaf-file-name="ViewConsultationsCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+            <state line="7" column="107" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/default.html">
+      <file leaf-file-name="ConsultationCtrl.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="259" selection-end="259" vertical-scroll-proportion="-5.230769">
+            <state line="15" column="53" selection-start="654" selection-end="654" vertical-scroll-proportion="0.45535713">
               <folding />
             </state>
           </provider>
@@ -607,43 +101,16 @@
       <file leaf-file-name="consultation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/consultation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="100" selection-start="5565" selection-end="5565" vertical-scroll-proportion="-7.576923">
+            <state line="114" column="69" selection-start="5201" selection-end="5201" vertical-scroll-proportion="-3.9230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsultationCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js">
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HealthRecordCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="52" selection-start="365" selection-end="366" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="healthRecordsModel.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/healthRecordsModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.2985916">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="healthrecord.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
+            <state line="11" column="77" selection-start="414" selection-end="414" vertical-scroll-proportion="-5.4615383">
               <folding />
             </state>
           </provider>
@@ -667,30 +134,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routes/doctors.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.html" />
         <option value="$PROJECT_DIR$/public/ehaspa/templates/doctors.html" />
         <option value="$PROJECT_DIR$/public/ehaspa/app.js" />
-        <option value="$PROJECT_DIR$/public/ehaspa/scripts/app.js" />
         <option value="$PROJECT_DIR$/public/ehaspa/controllers/NavbarCtrl.js" />
         <option value="$PROJECT_DIR$/public/ehaspa/controllers/DashboardCtrl.js" />
-        <option value="$PROJECT_DIR$/public/ehaspa/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/public/ehaspa/public/styles/main.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js" />
         <option value="$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html" />
         <option value="$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html" />
         <option value="$PROJECT_DIR$/public/ehaspa/templates/default.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/controllers/ConsultConnectCtrl.js" />
+        <option value="$PROJECT_DIR$/public/ehaspa/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/templates/consultconnect.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/scripts/app.js" />
+        <option value="$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js" />
         <option value="$PROJECT_DIR$/public/ehaspa/templates/consultation.html" />
+        <option value="$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
+    <option name="x" value="2" />
+    <option name="y" value="2" />
+    <option name="width" value="1369" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -893,6 +360,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angulareha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angulareha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ehaspa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1027,18 +520,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
+    <frame x="2" y="2" width="1369" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.6741214" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.66935486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2511278" sideWeight="0.63957596" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33064517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36042404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1111,51 +604,44 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/IndexCtrl.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="76" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ConsultConnectCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="70" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="52" selection-start="365" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/consultconnect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="271" selection-end="271" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="58" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/public/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/doctors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="41" selection-start="1764" selection-end="1764" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/user.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="584" column="0" selection-start="19204" selection-end="19316" vertical-scroll-proportion="-6.4615383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="46" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.0">
+        <state line="4" column="71" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1169,56 +655,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/viewconsultations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="64" selection-start="1089" selection-end="1089" vertical-scroll-proportion="-6.1153846">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/default.html">
+    <entry file="file://$PROJECT_DIR$/routes/consultations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="259" selection-end="259" vertical-scroll-proportion="-5.230769">
+        <state line="161" column="42" selection-start="6337" selection-end="6337" vertical-scroll-proportion="1.3443708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/healthrecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/consultation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="100" selection-start="5565" selection-end="5565" vertical-scroll-proportion="-7.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/HealthRecordCtrl.js">
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="365" selection-end="366" vertical-scroll-proportion="0.0">
+        <state line="17" column="58" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ViewConsultationsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="107" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/healthRecordsModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.2985916">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="77" selection-start="414" selection-end="414" vertical-scroll-proportion="-5.4615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/templates/consultation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="69" selection-start="5201" selection-end="5201" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ehaspa/controllers/ConsultationCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="53" selection-start="654" selection-end="654" vertical-scroll-proportion="0.45535713">
           <folding />
         </state>
       </provider>

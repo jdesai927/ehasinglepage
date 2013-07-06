@@ -1,4 +1,4 @@
-var eha = angular.module('eha', ['ngResource'])
+var eha = angular.module('eha', ['ngResource', 'ui.bootstrap'])
     .config(function($routeProvider) {
         $routeProvider.when('/home',
             {
@@ -11,6 +11,11 @@ var eha = angular.module('eha', ['ngResource'])
                 controller: 'DoctorsController'
             })
         $routeProvider.when('/consultation',
+            {
+                templateUrl: 'ehaspa/templates/consultation.html',
+                controller: 'ConsultationController'
+            })
+        $routeProvider.when('/consultation/:docID/:docName',
             {
                 templateUrl: 'ehaspa/templates/consultation.html',
                 controller: 'ConsultationController'
